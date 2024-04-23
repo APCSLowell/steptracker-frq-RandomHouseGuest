@@ -12,8 +12,8 @@ public class StepTracker
    if(steps.get(i) >= limit){
     count++;
    }
-   return count;
   }
+   return count;
  }
   public double averageSteps(){
    int sum = 0;
