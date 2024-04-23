@@ -20,7 +20,7 @@ public class StepTracker
    for(int i = 0; i < steps.size(); i++){
     sum += steps.get(i);
    }
-   return sum/steps.size;
+   return sum/steps.size();
   }
   public int addDailySteps(int step){
    steps.add(step);
