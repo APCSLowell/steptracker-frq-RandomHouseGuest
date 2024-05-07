@@ -22,7 +22,7 @@ public class StepTracker
    }
    return sum/steps.size();
   }
-  public int addDailySteps(int step){
+  public void addDailySteps(int step){
    steps.add(step);
   }
 }
