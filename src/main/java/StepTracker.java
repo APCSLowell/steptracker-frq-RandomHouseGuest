@@ -4,6 +4,7 @@ public class StepTracker
  private ArrayList <Integer> steps;
  private int limit;
  public StepTracker(int setlimits){
+  steps = new ArrayList <Integer> ();
   limit = setlimits;
  }
  public int activeDays(){
